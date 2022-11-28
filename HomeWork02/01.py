@@ -10,7 +10,6 @@ def sum(num):
     num = int(num)
     print(number)
     sum = 0
-    temp = 0
     while num > 10:    
             sum += num % 10
             num = num // 10
