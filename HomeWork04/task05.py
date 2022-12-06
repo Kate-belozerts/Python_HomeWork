@@ -83,3 +83,9 @@ def change_plus(st):
 resultische = make_sum(res_01, res_02)
 end_result = change_plus(resultische)
 print(end_result)
+
+# Вывод суммы в отдельный файл:
+
+result_file = open('HomeWork04/result_file.txt', 'w')
+result_file.write(end_result)
+result_file.close()
